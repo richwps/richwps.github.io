@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <title>RichWPS OWS Orchestration</title>
+    <!--[if lte IE 8]>
+      <script src="http://js.cwhcode.com/html5/"></script>
+    <![endif]-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    
+    <!-- Le styles -->
+    <link href="/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="/bootstrap/css/bootstrap-theme.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+  <!--  <link href="/css/style2.css" rel="stylesheet">-->
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+<div class="container">
+
+    <div class="header">
+        <ul class="nav nav-pills pull-right">
+        <li><a href="#about">About</a></li>
+        <li><a href="#activities">Activities</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><a href="https://github.com/richwps" target="_blank">@github</a></li>
+        
+        
+        </ul>
+        <h3 style="font-weight:bold;">RichWPS OWS Orchestration</h3>A BMBF<sup>0</sup> funded project for easy OpenGIS Web Services (OWS) orchestration.
+      </div>
+
+  </div>
+
+
+<div id="about" class="container white round" style="margin-top:25px;padding:10px;">
+
+    <div class="jumbtron" style="margin-bottom:25px;">
+          <h2 class="featurette-heading">RichWPS <span class="text-muted"> - OWS orchestration made simple(r).</span></h2>
+          <p class="lead">Based on the open-geospatial standards RichWPS aims at providing simple orchestration means to
+          domain experts. Therefore, the three components <a href="#server">RichWPS Server</a>, <a href="#semanticproxy">RichWPS SemanticProxy</a> and <a href="#modelbuilder">RichWPS ModelBuilder</a> are introduced for faciliating the OWS-compliant creation, description and provision of orchestrated geospatial processes.
+          </p>
+    </div>
+
+  
+
+  <div id="server" class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="img/server.png" alt="">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">RichWPS Server <span class="text-muted">- workflow provisioning</span></h2>
+          <p class="lead">Based on the open source <a href="http://52north.org/" target="_blank">52° North Web Processing Service</a> the RichWPS Server manages the centralized execution of workflows by means of a custom orchestration engine. However, it also enables domain experts to test, optimize and manage workflows at runtime. Therefore, the RichWPS Orchestration Language (ROLA), a custom language for OWS orchestration, has been developed.
+          </p>
+          <a href="http://github.com/richwps/52n-wps" target="_blank" class="btn btn-primary btn-xs">View on Github</a>
+        </div>
+      </div>
+
+
+      <hr class="featurette-divider">
+
+      <div id="semanticproxy" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">RichWPS SemanticProxy <span class="text-muted">- discovery &amp; semantic annotation.</span></h2>
+          <p class="lead">The RichWPS SemanticProxy covers the field of OWS service description and discovery. Services (WPS, WFS) can be registered manually or discovered at runtime. The service- and content description takes place using the Resource Description Framework (RDF). Based on that, a custom vocabulary enables the interface- and content-specification beyond OWS service descriptions.</p>
+          <a href="http://github.com/richwps/semanticproxy" target="_blank" class="btn btn-primary btn-xs">View on Github</a>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="/img/semanticproxy.png" alt="">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+
+      <div id="modelbuilder" class="row featurette">
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="/img/modelbuilder.png" alt="Generic placeholder image">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">RichWPS ModelBuilder <span class="text-muted">- graphical OWS orchestration.</span></h2>
+          <p class="lead">The RichWPS ModelBuilder serves as interface for domain experts. It brings together the ease of modelling and simple means for using the RichWPS toolkit. Therefore the ModelBuilder automatically discovers given processes and data by using the SemanticProxy. An easy notation is used to build and configure new geospatial workflows. Those can be tested, optimized and finally published and managed using a RichWPS Server.</p>
+          <a href="http://github.com/richwps/modelbuilder" target="_blank" class="btn btn-primary btn-xs">View on Github</a>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div id="monitor" class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">RichWPS Monitor <span class="text-muted">monitoring &amp; QoS</span></h2>
+          <p class="lead">The RichWPS Monitor enables the scheduled metering of WPS-services and contained processes. Based on prepared queries the Monitor can be used to deliver QoS-information to the SemanticProxy. Linked systems, such as the ModelBuilder and the Server, are enabled to optimize workflows when needed.</p>
+          <a href="http://github.com/richwps/monitor" target="_blank" class="btn btn-primary btn-xs">View on Github</a>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="/img/monitor.png" alt="">
+        </div>
+      </div>
+</div><!--container-->
+
+  <div id="activities" class="container white round" style="margin-top:25px;padding:10px;">
+  <div class="marketing">
+    <h2>Activities, Contributions, Publications</h2>
+    <ul>
+    <li>Kohlus, Roosmann (2014): "Online-Bewertungsverfahren mit INSPIRE-Techniken? Umsetzungsansätze am Beispiel Seegras" in Arbeitskreis Umweltinformationssysteme Schleswig-Holstein, Jan. 14.</li>
+    <li>Wosniok, Bensmann, W&ouml;ssner, Kohlus, Roosmann, Heidmann, Lehfeldt. (2014): <a href="http://meetingorganizer.copernicus.org/EGU2014/EGU2014-13365-2.pdf" target="_blank">"Enriching the Web Processing Service"</a>, in European Geosciences Union
+General Assembly 2014 , Wien, April/May 14.</li>
+    <li>W&ouml;ssner, Abecker, Heidmann, Alcacer-Labrador, Bensmann, Roosmann (2014): "Aus Groß mach Klein: Verarbeitung orchestrierter OGC Web Services mit RichWPS Server und Client Komponenten“, in 21. Workshop des Arbeitskreis Umweltinformationssysteme Hochschule Karlsruhe - Technik und Wirtschaft - (HsKA), Karlsruhe, May 14.</li>
+    <li> Bensmann, Roosmann, Kohlus (2014): „Aus Klein mach Groß: Komposition von OGC Web Services mit dem RichWPS ModelBuilder“, , in 21. Workshop des Arbeitskreis Umweltinformationssysteme Hochschule Karlsruhe - Technik und Wirtschaft - (HsKA), Karlsruhe, May 14.</li>
+    <li>Bensmann (2014): "RichWPS - A Geospatial Orchestration Environment“ in Open Geospatial Consortium Technical Committee Meeting Geneva,Jun. 14,     </li>
+  <li>Alcacer-Labrador, Bensmann, Roosmann (2014): <a href="http://foss4g-e.org/content/web-processing-service-wps-orchestration-practical-approach" target=_"blank">Web Processing Service (WPS) Orchestration – A Practical Approach“</a>, in FOSS4G-E Academic Track Bremen, Jul. 14, .</li>
+  <li>Ziegenhagen, Kohlus, Roosmann (2014): "Orchestration of Geospatial Processes with RichWPS – a Practical Demonstration" in EnviroInfo 2014: Proceedings of the 28th International Conference on Informatics for Environmental Protection, pp. 525-532, Oldenburg, Sep. 14, BSI-Verlag, Carl von Ossietzky University Oldenburg, ISBN 978-3-8142-2317-9.</li>
+  <li>Bensmann, Alcacer-Labrador, Ziegenhagen, Roosmann (2014): "The RichWPS Environment for Orchestration“ in OGC TC Meeting Calgary/Academic Summit, Sep. 14.</li>
+  <li>Wosniok, Bensmann, L&uuml;cker, Lehfeldt, Roosmann (2014): "Standardized Web Processing of Hydro-Engineering Operations" in 11th International Conference on Hydroscience &amp; Engineering, Hamburg, Okt. 14.</li>
+  <li>Bensmann, Roosmann, W&ouml;ssner, Abecker, Heidmann (2014): "RichWPS orchestration environment for geo services“ in 11th International Conference on Hydroscience &amp; Engineering, Hamburg, Okt. 14.</li>
+  </ul>
+  </div>
+  </div><!--container-->
+  
+  <div id="contact" class="container white round" style="margin-top:25px;padding:10px;">
+  <div class="marketing">
+      <div class="row">
+
+        <div class="col-lg-3" style="text-align:center;">
+
+          <p>
+            <img src="/img/disy-logo.jpg" alt="" style="height: 64px;"><br/>
+            <b><a href="http://www.disy.net" target="_blank">Disy Informationssysteme GmbH<sup>1</sup></a></b>
+          </p>
+          <p>
+          Disy is the leading provider for spatial and environmental IT-solutions in Germany. We develop technologies that go beyond standard GIS and reporting and focus on improved and user-friendly information delivery to every desk. Our services range from specific expert applications for small user groups to major information systems designed for nationwide use.
+          </p>
+          <p>
+          In context of RichWPS we contribute our gained expertise in project leadership and the development of user-friendly OWS-based applications.
+          </p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-3" style="text-align:center;">
+          <p>
+            <img src="/img/hs-logo.png" alt=""  style="height: 64px;"><br/>
+            <b><a href="http://www.ecs.hs-osnabrueck.de" target="_blank">University of Applied Sciences Osnabr&uuml;ck Faculty of 
+            Engineering and Computer Science<sup>2</sup></a></b>
+          </p>
+          <p>With approximately 12.000 students and 100 majors (winter 2013) the UAS Osnabr&uuml;ck provides diverse capabilities
+          for education and research.</p>
+          <p>
+          In context of RichWPS the Faculty of Engineering and Computer Science accomplishes the alignment
+          between state of the art concepts and given scientific approaches. Beyond that, we contribute our experiences in
+          implementing distributed systems by providing and evaluating technical concepts.
+          </p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-3" style="text-align:center;">
+          <img  src="/img/baw-logo.png" alt=""  style="height: 64px;"><br/>
+          <b><a href="http://www.baw.de" target="_blank">Federal Waterways Engineering and Research Institute (BAW)<sup>3</sup></a></b>
+          <p>The BAW is the central technical and scientific federal authority of the BMVI covering the areas of structural, geotechnical and hydraulic engineering for German inland and coastal waterways. Research and development questions are mostly answered with numerical modeling methods, which is why BAW contributes real-life use cases to the RichWPS project. The engagement of distributed systems is motivated by high resource requirements of the modeling processes and the possible integration of modeling methods into standardized data infrastructures.
+          </p>
+        </div><!-- /.col-lg-4 -->
+
+        <div class="col-lg-3" style="text-align:center;">
+          <img src="/img/lkn-logo.png" alt=""  style="height: 64px;"><br/>
+          <b><a href="http://www.schleswig-holstein.de/LKN/EN/LKN_node.html" target="_blank">Schleswig-Holstein’s <br/>Government-Owned </br>Company for Coastal Protection,</br>National Parks and Ocean Protection (LKN)<sup>4</sup></a></b>
+          <p>The LKN conceives itself as a service provider for coastal protection along the Baltic and the North Sea as well as for the Wadden Sea National Park. It is the coastal protection authority, the port authority and, as far as the National Park is concerned, the nature conservation authority as well. The National Park Administration in Tönning, as part of the LKN, co-ordinates and approves research, projects and necessary maintenance and construction work. Together with the other Wadden Sea states, it organizes extensive environmental monitoring programmes.
+          </p>
+          <p>
+			In context of RichWPS we contribute a use case for the assessment of macrophytes according to the Water Framework Directive and the Marine Strategy Framework Directive. By applying and evaluating the developed software components, we verify the overall applicability of the chosen approach within public authority.
+		  </p>
+        </div><!-- /.col-lg-4 -->
+
+      </div><!-- /.row -->
+      
+</div>
+</div>
+      
+      <div class="container white round" style="margin-top:25px;padding:10px;">
+      <div class="marketing">
+      <footer style="margin-top:10px;">
+        <sup>0</sup>Federal Ministry of Education and Research <a href="http://www.bmbf.de/de/20655.php" target="_blank">KMU-innovativ</a> </br>
+        <sup>1</sup> Disy Informationssysteme GmbH, Ludwig-Erhard-Allee 6, 76131 Karlsruhe. Contact Andreas Abecker. </br>
+        <sup>2</sup> <a href="http://www.ecs.hs-osnabrueck.de" target="_blank">Hochschule Osnabr&uuml;ck - Fakult&auml;t f&uuml;r Ingenieurwissenschaften und Informatik</a>, Albrechtstrasse 30, 49076 Osnabr&uuml;ck. Contact Prof. Dr. Rainer Roosmann</br>
+        <sup>3</sup> Bundesanstalt f&uuml;r Wasserbau (BAW), Hamburg. Contact Rainer Lehfeldt. </br>
+        <sup>4</sup> Landesbetrieb K&uuml;stenschutz, Nationalpark und Meeresschutz Schleswig-Holstein (LKN), Herzog-Adolf-Straße 1, 25813 Husum. Contact J&ouml;rn Kohlus.</br>
+        Special thanks to <a href="http://getbootstrap.com" target="_blank">Twitter Bootstrap</a>, <a href="http://subtlepatterns.com" target="_blank">subtlepatterns.com</a>, <a href="http://simpleicon.com/license-agreement" target="_blank">simpleicon.com</a> and <a href="http://github.com" target="_blank">github.com</a><br/>
+      </footer>
+      </div>
+    </div> <!--container-->
+
+
+</body>
+
+</html>

@@ -1,0 +1,62 @@
+@font-face{
+    font-family: ubuntu;
+     src:url('/fonts/ubuntu.ttf') format('truetype');
+}
+body {
+	color: #373737;
+  	font: 12px "ubuntu", Helvetica Neue, Helvetica, Arial, sans-serif;
+  	font-weight: 300;
+  	line-height: 1.625;
+  	/*padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */
+  	margin: 0px;
+	  padding: 0px;
+    background: url(/img/vertical_cloth.png) repeat;
+}
+
+.header{
+	padding-top:50px;
+	padding-bottom:50px;
+  color:white;
+}
+.header li a{
+  color:#ccc;
+}
+.header li a:hover{
+  color:#005580;
+}
+.container{
+
+}
+.white{
+  background-color:white;
+}
+.round{
+  border-radius:5px;
+}
+.gray{
+  background-color:gray;
+}
+
+.jumbtron{
+}
+.welcome {
+
+}
+
+.panel-body{
+
+}
+.panel-body p{
+	margin-top:15px;
+
+}
+.logo {
+	width:64px;
+	width: 64px;
+	height: 64px;
+	border-radius: 127px;
+    -webkit-border-radius: 127px;
+    -moz-border-radius: 127px;
+/*    background: url(/img/polaroid.png) no-repeat;
+    display:inline-block;*/
+}
